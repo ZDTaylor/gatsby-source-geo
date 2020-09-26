@@ -23,7 +23,6 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, configOpt
             parent: null,
             children: [],
             internal: {
-                parent: null,
                 type: `geoLayer`,
                 content: nodeContent,
                 contentDigest: createContentDigest(proxy_layer),
@@ -62,7 +61,6 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, configOpt
             parent: null,
             children: [],
             internal: {
-                parent: null,
                 type: `geoFeature`,
                 content: nodeContent,
                 contentDigest: createContentDigest(proxy_feature),
