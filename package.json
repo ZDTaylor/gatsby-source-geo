@@ -1,26 +1,28 @@
 {
-  "name": "gatsby-source-geo",
-  "version": "0.3.0",
-  "description": "Gatsby source plugin for publishing geospatial data to the web",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "geospatial",
-    "geo",
-    "maps",
-    "mapping",
-    "gatsby-plugin",
-    "gatsby"
-  ],
-  "author": "Andrew Larcombe <andrew@andrewl.net> (http://www.andrewl.net)",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/andrewl/gatsby-source-geo.git"
-	},
-	"license": "MIT",
-	"dependencies": {
-		"gdal": "^0.9.8"
-	}
+    "name": "gatsby-source-geo-next",
+    "version": "0.4.0",
+    "description": "Gatsby source plugin for publishing geospatial data to the web",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "geospatial",
+        "geo",
+        "maps",
+        "mapping",
+        "gatsby-plugin",
+        "gatsby",
+        "gdal",
+        "gdal-next"
+    ],
+    "author": "Zachary Pate-Taylor <zacharydtaylor1997@gmail.com> (https://github.com/ZDTaylor)",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ZDTaylor/gatsby-source-geo.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "gdal-next": "^2.1.0"
+    }
 }
